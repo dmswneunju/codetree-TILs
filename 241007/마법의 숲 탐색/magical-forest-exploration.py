@@ -68,7 +68,7 @@ for cj, dr in unit:
         # 한칸 아래, 한칸 위
         arr[ci+1][cj] = arr[ci-1][cj] = num
         # 왼쪽, 오른쪽
-        arr[ci][cj-1:cj+1] = [num]*3
+        arr[ci][cj-1:cj+2] = [num]*3
         num += 1
         # 출구 정보
         exit_set.add((ci+dx[dr], cj+dy[dr]))
