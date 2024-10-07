@@ -33,7 +33,7 @@ def bfs(si, sj):
                 q.append((ni,nj))
                 visited[ni][nj] = 1
 
-    return max_i - 2
+    return max_i-2
 
 # 최종 답
 ans = 0
